@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color: rgba(255, 251, 0, 0.795);
+   display: flex;
+   justify-content: center;
+}
+
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    margin: 0px;
+}
+
+.card-container{
+    
+    background: rgb(53, 48, 48);
+    color: azure;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px -10px rgb(3, 5, 20);
+    padding-top: 30px;
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+
+h3{
+    margin: 10px 0px;
+}
+
+h4{
+    margin: 10px 0px;
+    text-transform:uppercase;
+}
+
+p{
+    color: rgb(226, 86, 36);
+    margin: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.status{
+    background-color: aquamarine;
+    color: black;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 3px 7px;
+    position: absolute;
+    top: 140px;
+    left:120px
+}
+.online{
+    background-color: rgb(91, 9, 185);
+    color: azure;
+}
+.offline{
+    background-color: rgb(194, 20, 20);
+    color: azure;
+}
+
+img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+    border: 3px solid rgb(123, 124, 151);
+    z-index: 5;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn{
+    background-color: #13c4f5dc;
+    color: azure;
+    border: none;
+    
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: grab;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.btn1{
+    background-color:rgb(37, 200, 37);
+    color: azure;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: grab;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn1:hover{
+    transform: scale(1.1);
+}
+.skills{
+   
+    text-align: left;
+}
+
+.skills ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 3px;
+    line-height: 30px;
+    position: relative;
+    left: 35px;
+    bottom: 15px;
+}
+
+.skills ul li{
+    display: inline-block;
+    padding: 5px;
+    font-size: 14px;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+}
